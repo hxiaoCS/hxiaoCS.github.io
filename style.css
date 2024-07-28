@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#visualization {
+    width: 800px;
+    height: 600px;
+    margin-left: 500px; /* Move the graph to the right */
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+#description {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+}
