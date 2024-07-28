@@ -24,7 +24,7 @@ function fetchData(){
             })
             .catch(error => {
                 console.error('Error fetching data:', error);
-                alert(`Cannot fetch the required data for ${scenes[currentScene].country} from World Bank due to the API issue.`);
+                alert(`Cannot fetch the required data for ${scenes[currentScene].country} from World Bank due to the API issue. Please wait for a few minutes and retry.`);
             });
     }
     else{
